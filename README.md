@@ -40,10 +40,15 @@ npm start
 ## 📖 Documentação da API
 
 Acesse o Swagger em:
-´´´bash
+```
 http://localhost:8080/swagger-ui.html
 ```
+## 📚 Documentação complementar
+- [Arquitetura](docs/ARCHITECTURE.md)
+- [Guia de Uso](docs/USAGE.md)
+- [Diagramas](docs/DIAGRAMS.md)
 ---
+
 ## 📌 Contribuidores
 
 Nome 1 (Backend)
