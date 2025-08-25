@@ -2,7 +2,7 @@ name: Feature Request
 description: Solicitação de nova funcionalidade
 title: "[FEATURE] "
 labels: enhancement
-assignees: 
+assignees: []
 body:
   - type: input
     attributes:
