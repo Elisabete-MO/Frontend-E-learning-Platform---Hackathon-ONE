@@ -2,18 +2,18 @@ name: Feature Request
 description: Solicitação de nova funcionalidade
 title: "[FEATURE] "
 labels: enhancement
-assignees: 
+assignees: String
 body:
-  - type: markdown
+  - type: input
     attributes:
-      value: |
-        **Descrição**
-        Descreva a nova funcionalidade.
+      label: Descrição
+      description: Descreva a nova funcionalidade
+      placeholder: "Ex.: Adicionar dashboard de progresso dos alunos"
   - type: textarea
     attributes:
       label: Motivação
       description: Por que esta funcionalidade é importante?
-      required: true
+      placeholder: "Ex.: Facilita acompanhar o progresso dos estudantes"
   - type: checkboxes
     attributes:
       label: Critérios de aceitação
