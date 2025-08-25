@@ -14,7 +14,6 @@ Conecte com a issue relevante: #<número da issue>
 ## Labels sugeridos
 - backend
 - frontend
-- fullstack
 - student
 - instructor
 - admin
