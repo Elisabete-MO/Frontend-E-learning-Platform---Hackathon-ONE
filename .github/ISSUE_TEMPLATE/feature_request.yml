@@ -1,0 +1,24 @@
+name: Feature Request
+description: Solicitação de nova funcionalidade
+title: "[FEATURE] "
+labels: enhancement
+assignees: 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Descrição**
+        Descreva a nova funcionalidade.
+  - type: textarea
+    attributes:
+      label: Motivação
+      description: Por que esta funcionalidade é importante?
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Critérios de aceitação
+      options:
+        - Implementação do backend concluída
+        - Endpoints criados e testados
+        - Frontend integrado e funcionando
+        - Documentação atualizada
