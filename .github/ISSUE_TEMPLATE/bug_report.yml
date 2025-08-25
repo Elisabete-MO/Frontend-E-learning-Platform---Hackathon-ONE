@@ -31,7 +31,6 @@ body:
       options:
         - Backend
         - Frontend
-        - Fullstack
         - Student
         - Instructor
         - Admin
