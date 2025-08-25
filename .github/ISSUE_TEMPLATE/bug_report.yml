@@ -4,27 +4,27 @@ title: "[BUG] "
 labels: bug
 assignees: String
 body:
-  - type: markdown
+  - type: input
     attributes:
-      value: |
-        **Descrição**
-        Explique o bug encontrado.
+      label: Descrição
+      description: Explique o bug encontrado.
+      placeholder: "Ex.: Ao tentar logar, recebo erro 500"
   - type: textarea
     attributes:
       label: Passos para reproduzir
       description: Liste os passos detalhados
-      placeholder: 1. ...
-      required: true
+      placeholder: |
+        1. Abra a página de login
+        2. Insira usuário e senha
+        3. Clique em entrar
   - type: textarea
     attributes:
       label: Resultado esperado
       description: O que você esperava que acontecesse
-      required: true
   - type: textarea
     attributes:
       label: Resultado atual
       description: O que acontece de fato
-      required: true
   - type: dropdown
     attributes:
       label: Área afetada
@@ -32,5 +32,7 @@ body:
         - Backend
         - Frontend
         - Fullstack
+        - Student
+        - Instructor
+        - Admin
       description: Selecione a área do bug
-      required: true
