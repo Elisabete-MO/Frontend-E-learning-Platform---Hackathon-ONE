@@ -2,7 +2,7 @@ name: Feature Request
 description: Solicitação de nova funcionalidade
 title: "[FEATURE] "
 labels: enhancement
-assignees: String
+assignees: 
 body:
   - type: input
     attributes:
@@ -18,7 +18,7 @@ body:
     attributes:
       label: Critérios de aceitação
       options:
-        - Implementação do backend concluída
-        - Endpoints criados e testados
-        - Frontend integrado e funcionando
-        - Documentação atualizada
+        - label: Implementação do backend concluída
+        - label: Endpoints criados e testados
+        - label: Frontend integrado e funcionando
+        - label: Documentação atualizada
