@@ -1,5 +1,6 @@
-import { Box, Image, Heading, Text, Flex, Button } from '@chakra-ui/react';
+import { Box, Image, Heading, Text, Flex } from '@chakra-ui/react';
 import pagina_inicial from '../assets/pagina_inicial.png';
+import { StylezedButton } from './StylezedButton'
 
 function Main() {
     return (
@@ -28,21 +29,7 @@ function Main() {
                     </Heading>
 
                     <Flex justify={{ base: "center", md: "center" }}>
-                        <Button
-                            bg="#FFF"
-                            border="1px solid"
-                            borderColor="#000"
-                            w="12.8rem"
-                            h="2.5rem"
-                            color="#000"
-                            fontWeight={0}
-                            fontSize="1.2rem"
-                            fontFamily="'Inclusive Sans', sans-serif"
-                            _hover={{ bg: "#05AFF2", color: "white" }}
-                            borderRadius={0}
-                        >
-                            Cadastre-se agora
-                        </Button>
+                        <StylezedButton buttonText={"Cadastre-se agora"}/>
                     </Flex>
                 </Box>
 
