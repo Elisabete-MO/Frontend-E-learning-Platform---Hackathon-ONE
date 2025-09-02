@@ -1,0 +1,8 @@
+#contentRegisterPage {
+  display: flex;              /* ativa o flexbox */
+  flex-direction: row;        /* itens lado a lado */
+  align-items: center;        /* centraliza verticalmente */
+  justify-content: center;    /* centraliza horizontalmente */
+  gap: 50px;                  /* espaço entre LeftContent e RegisterForm */
+  padding: 50px;              /* opcional, espaço interno */
+}
