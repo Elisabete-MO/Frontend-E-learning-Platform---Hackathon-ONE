@@ -1,6 +1,6 @@
-import { Box, Image, Flex, HStack, Link } from '@chakra-ui/react';
-import logo from '../assets/logo.png';
-import { StylezedButton } from './StylezedButton';
+import { Box, Image, Flex, HStack, Link } from "@chakra-ui/react";
+import logo from "../assets/logo.png";
+import { StylezedButton } from "./StylezedButton";
 
 function Header() {
     return (

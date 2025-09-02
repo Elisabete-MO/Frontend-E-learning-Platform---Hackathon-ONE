@@ -1,4 +1,5 @@
 import { Button } from "@chakra-ui/react";
+import PropTypes from "prop-types";
 
 export function StylezedButton ({buttonText}) {
 
@@ -18,7 +19,7 @@ export function StylezedButton ({buttonText}) {
             {buttonText}
         </Button>
     );
-};
+}
 
 export function StylezedActiveButton ({buttonText}) {
 
@@ -38,4 +39,12 @@ export function StylezedActiveButton ({buttonText}) {
             {buttonText}
         </Button>
     );
+}
+
+StylezedButton.propTypes = {
+    buttonText: PropTypes.string.isRequired,
+};
+
+StylezedActiveButton.propTypes = {
+    buttonText: PropTypes.string.isRequired,
 };

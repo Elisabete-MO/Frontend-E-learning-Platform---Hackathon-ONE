@@ -8,11 +8,11 @@ export function Home (){
 
     return (
         <>
-        <Header />
-        <Divider />
-        <Main />
-        <Divider />
-        <Footer />
+            <Header />
+            <Divider />
+            <Main />
+            <Divider />
+            <Footer />
         </>
     );
-};
+}
