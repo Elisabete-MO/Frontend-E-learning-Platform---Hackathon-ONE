@@ -1,4 +1,4 @@
-#contentRegisterPage {
+.contentRegisterPage {
   display: flex;              /* ativa o flexbox */
   flex-direction: row;        /* itens lado a lado */
   align-items: center;        /* centraliza verticalmente */

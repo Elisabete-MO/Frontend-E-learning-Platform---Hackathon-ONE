@@ -1,4 +1,4 @@
-#registerForm{
+.registerForm{
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -9,7 +9,7 @@
     border-radius: 2rem;
 }
 
-#registerForm>button{
+.registerForm>button{
     background-color: #038C4C;
     color: white;
     width: 27rem;

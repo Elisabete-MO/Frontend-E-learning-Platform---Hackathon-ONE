@@ -54,7 +54,7 @@ function RegisterForm() {
     };
 
     return (
-        <form onSubmit={handleSubmit} id={styles.registerForm}>
+        <form onSubmit={handleSubmit} className={styles.registerForm}>
             <InputField
                 placeholder="Nome completo"
                 type="text"

@@ -1,6 +1,6 @@
 import { Box, Image, Heading, Text, Flex } from '@chakra-ui/react';
 import pagina_inicial from '../../assets/pagina_inicial.png';
-import { StylezedButton } from '../StylezedButton'
+import { StylezedButton } from '../../components/StylezedButton'
 
 function Main() {
     return (

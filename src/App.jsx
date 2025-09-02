@@ -1,5 +1,6 @@
-import RegisterPage from './components/RegisterPage/RegisterPage/RegisterPage';
-import { Home } from './pages/Home';
+import RegisterPage from './pages/RegisterPage';
+import Main from './pages/Main/Main';
+import Home from "./pages/Home"
 
 function App() {
   return (
