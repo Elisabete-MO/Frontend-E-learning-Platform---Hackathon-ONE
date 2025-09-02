@@ -1,0 +1,19 @@
+name: Teste de build do front-end
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout do repositorio
+        uses: actions/checkout@v4
+      - name: setup do node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: instala dependencias
+        run: |
+          npm install
+      - name: builda o projeto
+        run: |
+          npm run build
+      
