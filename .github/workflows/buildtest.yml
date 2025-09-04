@@ -13,6 +13,9 @@ jobs:
       - name: instala dependencias
         run: |
           npm install
+      - name: Roda Eslint com fix para verificar padrão do código
+        run: |
+          npm run lint-fix
       - name: builda o projeto
         run: |
           npm run build
