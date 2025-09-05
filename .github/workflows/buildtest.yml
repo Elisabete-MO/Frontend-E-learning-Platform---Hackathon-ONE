@@ -1,0 +1,22 @@
+name: Teste de build do front-end
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout do repositorio
+        uses: actions/checkout@v4
+      - name: setup do node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.12.2
+      - name: instala dependencias
+        run: |
+          npm install
+      - name: Roda Eslint com fix para verificar padrão do código
+        run: |
+          npm run lint-fix
+      - name: builda o projeto
+        run: |
+          npm run build
+      
