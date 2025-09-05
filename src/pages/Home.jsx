@@ -1,10 +1,10 @@
 import { Divider } from "@chakra-ui/react";
 import Header from "../components/Header";
-import Main from "../components/Home/Main";
+import Main from "./Main/Main";
 import Footer from "../components/Footer";
 
 
-export function Home (){
+function Home (){
 
     return (
         <>
