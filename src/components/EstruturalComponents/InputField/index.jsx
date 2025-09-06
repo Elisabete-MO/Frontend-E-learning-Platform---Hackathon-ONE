@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styles from "./InputField.module.css";
 
 function InputField({ 
@@ -20,6 +21,16 @@ function InputField({
       required={required}
     />
   );
-}
+};
+
+InputField.propTypes = {
+  icon: PropTypes.string.isRequired, 
+  placeholder: PropTypes.string.isRequired, 
+  type: PropTypes.string.isRequired, 
+  required: PropTypes.bool,  
+  value: PropTypes.any.isRequired, 
+  onChange: PropTypes.func.isRequired, 
+  error: PropTypes.bool
+};
 
 export default InputField;

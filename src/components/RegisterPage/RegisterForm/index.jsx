@@ -1,7 +1,7 @@
 import userIco from "../../../assets/icons/user.svg";
 import emailIco from "../../../assets/icons/email.svg";
 import lockIco from "../../../assets/icons/lock.svg";
-import InputField from "../../EstruturalComponents/InputField/InputField";
+import InputField from "../../EstruturalComponents/InputField";
 import { useState } from "react";
 import styles from "./RegisterForm.module.css";
 
