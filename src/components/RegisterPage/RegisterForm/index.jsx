@@ -5,7 +5,7 @@ import InputField from "../../EstruturalComponents/InputField/InputField";
 import { useState } from "react";
 import styles from "./RegisterForm.module.css";
 
-function RegisterForm() {
+export function RegisterForm() {
     const [nome, setNome] = useState("");
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
@@ -96,6 +96,4 @@ function RegisterForm() {
             <span>Já tem conta? <a href="/login">Entrar</a></span>
         </form>
     );
-}
-
-export default RegisterForm;
+};

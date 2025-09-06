@@ -1,7 +1,7 @@
 import imagemRegistro from "../../../assets/ilustracao-cadastro.png"
 import styles from "./RegisterBanner.module.css"
 
-function LeftContent() {
+export function RegisterBanner() {
   return (
     <div id='content'>
       <h1 className={styles.title}>Aprenda no seu ritmo, evolua sem limites.</h1>
@@ -9,6 +9,4 @@ function LeftContent() {
       <h2>Cursos práticos e acessíveis para transformar o seu futuro.</h2>
     </div>
   );
-}
-
-export default LeftContent;
+};
