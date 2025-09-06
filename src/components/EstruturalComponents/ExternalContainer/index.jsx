@@ -9,7 +9,7 @@ export function ExternalDoubleContainer ({children}) {
     );
 };
 
-ExternalDoubleContainer.propType = {
+ExternalDoubleContainer.propTypes = {
     children: PropTypes.element.isRequired
 };
 
@@ -22,6 +22,6 @@ export function ExternalContainer ({children}) {
 };
 
 
-ExternalContainer.propType = {
+ExternalContainer.propTypes = {
     children: PropTypes.element.isRequired
 };
