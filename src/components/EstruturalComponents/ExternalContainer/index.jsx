@@ -3,13 +3,15 @@ import styles from "./ExternalContainer.module.css";
 
 export function ExternalDoubleContainer ({children}) {
     return (
-        <main className={styles.external-double}>
+        <main className={styles.externalDouble}>
             {children}
         </main>
     );
 };
 
-
+ExternalDoubleContainer.propType = {
+    children: PropTypes.element
+};
 
 export function ExternalContainer ({children}) {
     return (
@@ -19,6 +21,7 @@ export function ExternalContainer ({children}) {
     );
 };
 
-ExternalDoubleContainer.propType, ExternalContainer.propType = {
+
+ExternalContainer.propType = {
     children: PropTypes.element
 };
