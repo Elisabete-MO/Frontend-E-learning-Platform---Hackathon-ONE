@@ -27,7 +27,8 @@
     "indent": ["warn", 4],
     "quotes": ["warn", "double"],
     "semi": ["warn", "always"],
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/no-autofocus": "off"
   },
   "settings": {
     "react": {

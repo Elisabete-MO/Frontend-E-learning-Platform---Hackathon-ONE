@@ -1,0 +1,9 @@
+.loginFormAnchor{
+    color: #009BF5;
+}
+
+.loginFormDetailsContainer{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+}
