@@ -1,0 +1,22 @@
+.labelLayer{
+    color: black;
+}
+
+.labelCheckLayer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.labelCheckLayer > div{
+    width: 32px;
+    height: 32px;
+
+}
+
+.labelCheckLayerName{
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
