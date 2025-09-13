@@ -1,0 +1,23 @@
+div#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+h1{
+    color: #103B53;
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.75rem;
+    color: #103B53;
+    opacity: 0.8;
+}
+
+h1,h2{
+    text-align: center;
+}
+img{
+width: 36rem;
+margin: auto;
+}

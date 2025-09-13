@@ -1,0 +1,45 @@
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    gap:1.75rem;
+    border: 2px solid black;
+    padding:2rem;
+    border-radius: 2rem;
+}
+
+.registerForm>button{
+    background-color: #038C4C;
+    color: white;
+    width: 27rem;
+    height: 4rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+#cadastrar:hover{
+    background-color: #fff;
+    border: 2px solid#038C4C;
+    color:#038C4C;
+
+}
+
+select{
+  width: 100%;
+
+  padding: 10px 10px 10px 40px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  font-size: 16px;
+
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px 20px;
+}
+
+select:focus {
+  border-color: #4f46e5;
+  outline: none;
+}

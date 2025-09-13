@@ -1,0 +1,21 @@
+.inputField {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px;
+  padding-left: 40px;
+  outline: none;
+  transition: border 0.3s;
+  width: 100%;
+}
+
+.inputField:focus {
+  border-color: #103B53;
+}
+
+.error {
+  border-color: rgb(216, 75, 75);
+  
+}
