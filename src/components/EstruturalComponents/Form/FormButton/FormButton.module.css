@@ -1,0 +1,16 @@
+.formButton{
+    background-color: #038C4C;
+    color: white;
+    width: 27rem;
+    height: 4rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.formButton:hover{
+    background-color: #fff;
+    border: 2px solid#038C4C;
+    color:#038C4C;
+
+}
