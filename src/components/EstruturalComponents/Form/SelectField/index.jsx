@@ -15,7 +15,7 @@ export function SelectField ({
     )
 };
 
-SelectField.PropTypes = {
+SelectField.propTypes = {
     selectlist: PropTypes.array.isRequired,
     selectName: PropTypes.string.isRequired,
     selectHandle: PropTypes.func.isRequired

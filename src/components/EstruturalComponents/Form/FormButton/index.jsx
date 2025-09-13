@@ -12,7 +12,7 @@ export function FormButton ({
     )
 };
 
-FormButton.PropTypes = {
+FormButton.propTypes = {
     buttonName: PropTypes.string,
     buttonAction: PropTypes.func,
     children: PropTypes.element

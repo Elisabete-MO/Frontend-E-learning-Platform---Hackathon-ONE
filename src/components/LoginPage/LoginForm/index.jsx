@@ -40,10 +40,10 @@ export function LoginForm () {
     return (
         <Form.FormContainer formHandle={handleLoginSubmit}>
             <Form.LabelField labelName="E-mail:" >
-                <Form.InputField icon={emailIcon} placeholder="Insira seu e-mail" required={true} type="email" isAutoFocus={true} onChange={(e) => setTimeout((event) => setEmail(event.target.value), 1500)}/>
+                <Form.InputField icon={emailIcon} placeholder="Insira seu e-mail" required={true} type="email" isAutoFocus={true} onChange={(event) => setTimeout(() => setEmail(event.target.value), 1500)}/>
             </Form.LabelField>
             <Form.LabelField labelName="Senha:">
-                <Form.InputField icon={passwordIcon} placeholder="Digite sua senha" required={true} type="password" onChange={(e) => setTimeout((event) => setSenha(event.target.value), 1500)}/>
+                <Form.InputField icon={passwordIcon} placeholder="Digite sua senha" required={true} type="password" onChange={(event) => setTimeout(() => setSenha(event.target.value), 1500)}/>
             </Form.LabelField>
             <Form.LabelField labelName="Lembrar de mim" isCheckInput={true}>
                 <Form.InputField value="remember" type="checkbox"/>
@@ -51,7 +51,7 @@ export function LoginForm () {
             <Form.Button buttonName="Entrar" />
             <div className={styles.loginFormDetailsContainer}>
                 <p>Ainda não tem conta?</p>
-                <a href="#" className={styles.loginFormAnchor}>Cadastrar-se agora</a>
+                <a href="/" className={styles.loginFormAnchor}>Cadastrar-se agora</a>
             </div>
         </Form.FormContainer>
     );
